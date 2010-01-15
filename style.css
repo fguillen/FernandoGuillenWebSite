@@ -1,0 +1,357 @@
+/*
+ div{
+border: 1px solid black;
+}
+*/
+
+* {
+	margin:0; 
+	padding:0;
+}
+
+html {
+	background: #fff;
+}
+
+body {
+	background: #fff; 
+	color:#666; 
+	font-family:Arial, Helvetica,  sans-serif;
+font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:12px;
+}
+
+h3{
+  margin-bottom: 10px;
+}
+
+p {
+	font-family: helvetica, Georgia, "Times New Roman", Times, serif; 
+	margin-bottom:5px;
+}
+
+
+
+a {
+	color:#000; 
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+ul{
+
+list-style-type: none
+}
+
+
+.oculto{
+	display:none;
+}
+
+#contenedor {
+	margin:10px 45px 10px 45px; 
+	width:740px; 
+	background:#fff; 
+	padding:10px 0;
+}
+
+
+#info {
+	float:right; 
+	color:#666; 
+	text-align:right;
+}
+
+#info p {
+	font-family:Arial, Helvetica,  sans-serif; 
+	margin:0; 
+	font-size:10px;
+}
+
+#intro {
+margin: 5px 0 10px 0;
+border-bottom: 1px solid #111;
+}
+
+#intro p{
+padding: 5px 0 0 10px; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+font-size: 15px;
+}
+
+#habilidades{
+width: 240px;
+padding: 0 5px 0 0;
+float: left;
+margin-bottom: 10px;
+}
+
+#deshabilidades{
+width: 240px;
+padding: 0 5px;
+float: left;
+margin-bottom: 10px;
+}
+
+#gustos{
+width: 240px;
+padding: 0 0 0 5px;
+margin-bottom: 10px;
+float: left;
+}
+
+h2{
+  font-family: Times New Roman,Times,serif;
+  font-size: 14px;
+
+}
+
+h4 {
+	font-family:Arial, Helvetica,  sans-serif;
+	font-size: 19px; 
+	color:#111; 
+	margin:10px 0 5px 0;
+	font-weight:100;
+}
+
+#menu {
+	clear:both; 
+	border:solid #111; 
+	border-width:1px 0; 
+	padding:7px 0 5px 0;
+margin: 0px;
+}
+
+#menu li {
+	display:inline; 
+	list-style-type:none; 
+	padding:0 15px 0 0;
+}
+
+
+
+#menu li a {
+	font:100 20px/20px Georgia, "Times New Roman", Times, serif; 
+	text-transform:uppercase; 
+	padding:5px; 
+	text-align:center; 
+	color:#111;
+		text-decoration:none;
+}
+
+#menu li a:hover {
+	background:#111; 
+	color:#fff;
+}
+
+
+#cabecera {
+	margin-bottom:15px;
+}
+
+#cabecera h1 {
+	color:#111; 
+	font-size:40px; 
+	font-weight:700; 
+	line-height:33px; 
+	margin:0 0 0 0; 
+	clear:both;
+}
+
+#cabecera h2 {
+	font:100 20px/20px Georgia, "Times New Roman", Times, serif;
+	color:#111;
+padding: 0 0 0 5px;
+}
+
+#pie{
+clear: both;
+border-top: 1px solid black;
+padding: 10px 0 10px 0;
+}
+
+/**
+*
+* BIO
+*
+**/
+
+#bio{
+}
+
+#bio h4{
+float: left;
+clear: left;
+font-size: 12px;
+vertical-align: top;
+margin: 0 5px 0 0;
+font-weight: bold;
+}
+
+#bio p{
+margin: 0 0 10px 10px
+}
+
+
+
+#bio1{
+width: 240px;
+padding: 0 5px 0 0;
+float: left;
+margin-bottom: 10px;
+}
+
+#bio2{
+width: 240px;
+padding: 0 5px;
+float: left;
+margin-bottom: 10px;
+}
+
+#bio3{
+width: 240px;
+padding: 0 0 0 5px;
+margin-bottom: 10px;
+float: left;
+}
+
+/**
+*
+* CURRICULO
+*
+**/
+#curriculo ul{
+margin: 0 0 0 15px;
+}
+
+#curriculo #resto>ul{
+list-style-type: circle;
+}
+
+#curriculo #resto li.doble{
+margin-top: 5px;
+}
+
+#curriculo #datos{
+width: 300px;
+float: left;
+}
+
+#curriculo #resto{
+margin-left: 310px;
+margin-bottom: 10px;
+}
+
+/**
+*
+* PROYECTOS
+*
+**/
+
+#projects .imagen{
+float: left;
+clear: left;
+}
+
+#projects .texto{
+margin-left: 300px;
+}
+
+#projects h4{
+
+}
+
+.proyecto{
+clear: both;
+padding-bottom: 10px;
+}
+
+.proyecto img{
+border: 1px solid #666;
+margin-top: 5px;
+}
+
+
+/**
+*
+* BLOG
+*
+**/
+
+#blog #contenido_blog{
+width: 500px;
+float: left;
+}
+
+/** flash alert **/
+#flash-alert{
+  border: 1px solid #CCCCCC;
+  position: absolute;
+  margin: 10px;
+  border: 1px solid #c93;
+  background: #ffc;
+  padding: 5px;
+  left: 0px;
+  top : -170px;
+}
+#flash-alert h2{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+
+/**
+*
+* Quotes
+*
+**/
+
+
+
+blockquote {
+background-color: #222;
+font-style: italic;
+font-size: 120%;
+color: #888;
+padding: 5px 50px 10px 40px;
+width: 300px;
+margin: 10px;
+}
+
+blockquote > p{
+padding-top: 15px;
+}
+
+blockquote a{
+color: white;
+}
+
+blockquote:before, blockquote:after {
+color: #555;
+display: block;
+font-size: 400%;
+width: 40px;
+}
+
+blockquote:before {
+content: open-quote;
+height: 0;
+margin-left: -40px;
+}
+
+blockquote:after {
+content: close-quote;
+height: 50px;
+margin-top: -30px;
+margin-left: 305px;
+}
+
+.quote-sign{
+margin-left: 10px;
+}
