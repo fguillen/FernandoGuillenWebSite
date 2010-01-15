@@ -315,12 +315,15 @@ float: left;
 
 
 blockquote {
+  background-image:url('./images/quote.jpg');
+  background-repeat:no-repeat;
+  background-position:10px 10px;
 border-top: 1px solid #222;
 border-bottom: 1px solid #222;
 font-style: italic;
 font-size: 120%;
 color: #888;
-padding: 0px 50px 0px 40px;
+padding: 0px 50px 10px 40px;
 width: 300px;
 margin: 10px;
 }
@@ -333,26 +336,7 @@ blockquote a{
 color: #444;
 }
 
-blockquote:before, blockquote:after {
-color: #555;
-display: block;
-font-size: 400%;
-width: 40px;
-}
-
-blockquote:before {
-content: open-quote;
-height: 0;
-margin-left: -40px;
-}
-
-blockquote:after {
-content: close-quote;
-height: 50px;
-margin-top: -30px;
-margin-left: 305px;
-}
-
 .quote-sign{
 margin-left: 10px;
 }
+
