@@ -315,11 +315,12 @@ float: left;
 
 
 blockquote {
-background-color: #222;
+border-top: 1px solid #222;
+border-bottom: 1px solid #222;
 font-style: italic;
 font-size: 120%;
 color: #888;
-padding: 5px 50px 10px 40px;
+padding: 0px 50px 0px 40px;
 width: 300px;
 margin: 10px;
 }
@@ -329,7 +330,7 @@ padding-top: 15px;
 }
 
 blockquote a{
-color: white;
+color: #444;
 }
 
 blockquote:before, blockquote:after {
